@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
 
 	struct ogrenci_bilgileri bl;
 	struct ogrenci_adresi ds;
-	printf("NOT:bu programda en fazla bes kisinin bilgilerini yazip ve sadece bes kiþinin bilgilerini alabilirsiniz\n");
+	printf("NOT:bu programda en fazla bes kisinin bilgilerini yazip ve sadece bes kisinin bilgilerini alabilirsiniz\n");
     int i=0;
     while(i<5){
 	printf("******************************************************************************\n");
@@ -44,9 +44,9 @@ int main(int argc, char *argv[]) {
     	scanf("%s",&ds.mahalle);
     	printf("%d'inci ogrencinin yasadigi sokak:",i+1);
     	scanf("%s",&ds.sokak);
-    	printf("%d'inci ogrencinin apartman adi:");
+    	printf("%d'inci ogrencinin apartman adi:",i+1);
     	scanf("%s",&ds.apartman_ad);
-    	printf("%d'inci ogrencinin daire nosu:");
+    	printf("%d'inci ogrencinin daire nosu:",i+1);
     	scanf("%d",&ds.daire_no);
     	printf("\n");
     	printf(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n");
